@@ -1,12 +1,8 @@
 ## code your solution here. 
 class Cat 
   attr_accessor :name 
-  def name=(cats_name)
-    @this_cats_name = cats_name
-  end 
-  
-  def name
-    @this_cats_name
+  def meow 
+    puts "meow!"
   end 
 end 
 
